@@ -16,4 +16,14 @@ Build a stupid-but-correct, synchronous speech-to-speech pipeline to train archi
 - All features are visible
 - Code is readable and maintainable
 
+## Model Choices
+- ASR: Faster Whisper (small)
+- LLM: Qwen3-1.7b 
+- TTS: Chatterbox Turbo
+
+## Architectural Note
+- All components are synchronous
+- All components are treated as black boxes
+- Failures surface immediately
+
 
