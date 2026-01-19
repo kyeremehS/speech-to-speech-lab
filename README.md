@@ -26,4 +26,16 @@ Build a stupid-but-correct, synchronous speech-to-speech pipeline to train archi
 - All components are treated as black boxes
 - Failures surface immediately
 
+- ASR
+    - Input: wav file path
+    - Output: transcription(String)
+
+- LLM
+    - Input: transcription(String)
+    - Output: response text(String)
+
+- TTS
+    - Input: response text(String)
+    - Output: wav audio
+
 
