@@ -38,4 +38,6 @@ Build a stupid-but-correct, synchronous speech-to-speech pipeline to train archi
     - Input: response text(String)
     - Output: wav audio
 
+    
+
 
