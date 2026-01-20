@@ -2,12 +2,17 @@ import os
 import sys
 from typing import Tuple
 
+"""
+ASR pipeline for day 1
+All components are stubs.
+Focus: architecture, contracts, and failure visibility.
+"""
 
 def asr_transcribe(audio_path: str) -> str:
     if not os.path.isfile(audio_path):
         raise FileNotFoundError(audio_path)
     if not audio_path.lower().endswith(".txt"):
-        raise ValueError("Only .txt input supported for ASR in this minimal pipeline")
+        raise ValueError("Only .txt input supported(ASR stud for day 1)")
     print(f"[ASR] reading {audio_path}")
     with open(audio_path, "r", encoding="utf-8") as f:
         text = f.read()
